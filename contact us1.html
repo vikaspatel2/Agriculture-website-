@@ -1,0 +1,98 @@
+<!doctype html><html><head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <style>
+body {
+  font-family:Arial, Helvetica,fantasy, sans-serif;
+  background-image:url(Farm1.jpg);
+ box-sizing: border-box;
+ }
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-image:url(Crops2.jpg);
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-color:white;
+  background-position:center;
+  height: 800px;
+  color: black;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: dimgray ;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: pink;
+  color: black;
+}
+
+.active {
+  background-color: orangered;
+  color: white;
+}
+input[type=submit], input[type=reset] {
+  background-color: gold;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+</style> 
+ </head> 
+ <body> 
+  <!-- Simulate a smartphone / tablet --> 
+  <div class="mobile-container"> 
+   <!-- Top Navigation Menu --> 
+   <div class="topnav"> 
+    <a href="agrict.html" class="active"><img src="Farm2.jpg" height="10%" width="20%"><i class="fa fa-fw fa-home"></i>AGRICULTURE DEPARTMENT</a> 
+    <div style="background-color:grey"> 
+     <u><h2 style="text-align:center" ;>Contact Us</h2></u> 
+     <form> 
+      <h3><br> First Name: <input type="text" name="username" value="First Name"> <br></h3> 
+      <br> 
+      <h3>Last Name: <input type="text" name="username" value="Last Name"> <br></h3> 
+      <br> 
+      <h3>Email Adress:<input type="email" name="email" value="enter your email id"><br> </h3> 
+      <h3> Subject:<textarea id="subject" name="subject" address="subject" value="Write something" rows="7" cols="40">write something</textarea><br></h3> 
+      <h3> Question:<textarea id="question" name="question" address="question" value="Write something" rows="10" cols="40">write your queries</textarea><br> <p style="text-align:center" ;><input type="submit" value="Submit"> OR <input type="submit" value="Reset"> </p> </h3> 
+     </form> 
+    </div> 
+    <script>
+     function myFunction() { var x = document.getElementById("myLinks"); if (x.style.display === "block") { x.style.display = "none"; } else { x.style.display = "block"; } } 
+  </div> 
+ </body>
+</html></script> 
+   </div> 
+  </div> 
+ 
+</body></html>

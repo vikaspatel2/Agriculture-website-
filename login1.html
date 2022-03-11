@@ -1,0 +1,101 @@
+<!doctype html><html><head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <style>
+body {
+  font-family:Arial, Helvetica,fantasy, sans-serif;
+  background-image:url(Farm1.jpg);
+}
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-image:url(Crops2.jpg);
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-color:white;
+  background-position:center;
+  height: 500px;
+  color: black;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: green;
+  color: white;
+}
+input[type=submit], input[type=reset] {
+  background-color: gold;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style> 
+ </head> 
+ <body> 
+  <!-- Simulate a smartphone / tablet --> 
+  <div class="mobile-container"> 
+   <!-- Top Navigation Menu --> 
+   <div class="topnav"> 
+    <a href="agrict.html" class="active"><img src="Farm2.jpg" height="10%" width="20%"><i class="fa fa-fw fa-home"></i>AGRICULTURE DEPARTMENT</a> 
+    <div style="background-color:grey"> 
+     <h1 style="text-align:center;"><mark>Registration Form</mark></h1> 
+     <h3><br> First Name: <input type="text" name="username" value="First Name"> <br></h3> 
+     <br> 
+     <h3>Last Name: <input type="text" name="username" value="Last Name"> <br></h3> 
+     <br> 
+     <h3>Email Adress:<input type="email" name="email" value="enter your email id" < h3> <br> </h3> 
+     <h3> Password: <input type="password" name="password" value="password"> <br></h3> 
+     <br> 
+     <h3> Address: <textarea id="Address" name="Address" rows="4" cols="50">
+            Enter Your Address Over Here
+        </textarea> <br></h3> 
+     <br> 
+     <h3>Select Gender: </h3> 
+     <input type="Radio" name="Gender" value="Male">Male 
+     <input type="Radio" name="Gender" value="Female">Female 
+     <br> 
+     <p style="text-align:center" ;><input type="submit" name="submit" value="Register"> OR <input type="submit" name="submit" value="Sign In"> </p> 
+    </div> 
+    <script>
+     function myFunction() { var x = document.getElementById("myLinks"); if (x.style.display === "block") { x.style.display = "none"; } else { x.style.display = "block"; } } 
+  </div> 
+ </body>
+</html></script> 
+   </div> 
+  </div> 
+ 
+</body></html>
